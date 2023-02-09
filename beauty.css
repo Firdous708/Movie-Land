@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  
+}
+body {
+  background-color: #24272C;
+  font-family: sans-serif;
+  
+}
+h3{
+  color:white;
+  font-weight: bold;
+}
+.topnav{
+  overflow: hidden;
+  background-color: #060606;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100px;
+  border-radius: 10px;
+ 
+ 
+  
+}
+.topnav a{
+  float: left;
+  display:block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  
+}
+.topnav .search-container {
+  float: right;
+}
+form {
+  background-color: #68FE9A;
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+}
+input {
+  all: unset;
+  font: 15px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: black;
+
+ 
+}
+.thumbnail{
+  height: 350px;
+  width: 300px;
+  border-radius: 19px;
+  
+
+  
+}
+.column {
+  float: left;
+  width: 40%;
+  padding: 10px 10px;
+}
+.card{
+  border-radius: 19px;
+  padding: 15px;
+  text-align: center;
+  background-color: #060606;
+  margin-top: 30px;
+  
+}
+#section {
+  margin-left: 105px;
+  margin-top: 100px;
+}
+.footer {
+  text-align: center;
+  color: white;
+  
+}
+
