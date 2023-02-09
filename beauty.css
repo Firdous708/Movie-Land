@@ -66,7 +66,7 @@ input {
 }
 .column {
   float: left;
-  width: 40%;
+  width: 25%;
   padding: 10px 10px;
 }
 .card{
@@ -84,6 +84,36 @@ input {
 .footer {
   text-align: center;
   color: white;
+  
+}
+@media only screen and (max-width: 600px) {
+  .topnav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    
+  }
+  #section {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+
+  }
+  .thumbnail {
+    width: 100%;
+
+    
+  }
+ 
+  .column{
+    width: 100%;
+  }
+  
   
 }
 
